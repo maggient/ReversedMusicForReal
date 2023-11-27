@@ -1,5 +1,6 @@
 /*
- * Courtney Brown (2023) slightly modified the code from the MidiBus class, from https://github.com/sparks/themidibus/ 
+ * CODE FROM COURTNEY BROWN, USED FOR MAGGIE NGUYEN FINAL PROJECT 
+ * CODE FROM Courtney Brown (2023) slightly modified the code from the MidiBus class, from https://github.com/sparks/themidibus/ 
  * by Severin Smith c2009, LGPL 
  * 
  * The MidiBus is free software: you can redistribute it and/or modify

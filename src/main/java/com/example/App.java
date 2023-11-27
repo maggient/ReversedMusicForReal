@@ -1,9 +1,9 @@
 /*
  * Template from c2017-2023 Courtney Brown modified by Maggie Nguyen 
  * Name: Maggie Nguyen 
- * Date: November 20th, 2023 
+ * Date: November 2023 
  * Class: App.java, Final Project COMPLETED
- * Description: This is the Project 1 template for the Probability Generator, has been modified and completed for Showcase 
+ * Description: This is the Project 1 template for the Probability Generator, has been modified and completed for Showcase. Final Project COMPLETED. 
  */
 
 package com.example;
@@ -29,7 +29,7 @@ public class App {
 	static FileSystem sys = FileSystems.getDefault();
 
 	//the getSeperator() creates the appropriate back or forward slash based on the OS in which it is running -- OS X & Windows use same code :) 
-	//static String filePath = "mid"  + sys.getSeparator() +  "MaryHadALittleLamb.mid"; //MIDI FILE TO TEST ALGORITHM STILL WORKS 
+	//static String filePath = "mid"  + sys.getSeparator() +  "MaryHadALittleLamb.mid"; //ORIGINAL MIDI FILE TO TEST ALGORITHM STILL WORKS 
     static String filePath = "mid"  + sys.getSeparator() +  "Do_Re_Mi_.mid"; //MIDI FILE FOR FINAL PROJECT 
 
 	private static ArrayList<Integer> generatedPitches;
@@ -57,7 +57,7 @@ public class App {
 
         Scanner scanner = new Scanner(System.in); //reads input stream - user press 
 
-        while (true) { //prints out the options for users to understand 
+        while (true) { //prints out the options for users to choose from  
 			System.out.println();
 			System.out.println("------------NUMBERED OPTIONS------------");
 			System.out.println();
@@ -110,8 +110,8 @@ public class App {
                     playOriginalMidiOneOctaveLower();
                     break;
                 case 0:
-                    System.out.println("------------PROGRAM COMPLETED------------");
-					System.out.println();
+                    System.out.println("------------PROGRAM COMPLETED------------"); //prints out " "
+					System.out.println(); //adds line 
                     System.exit(0); //end of the program, no longer runs 
 
 			} //end of switch cases 

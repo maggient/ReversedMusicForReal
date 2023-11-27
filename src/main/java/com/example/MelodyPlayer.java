@@ -1,4 +1,5 @@
 /*
+ * CODE FROM COURTNEY BROWN, USED FOR MAGGIE NGUYEN FINAL PROJECT 
  * c2017-c2023 Courtney Brown 
  * 
  * Class: MelodyPlayer

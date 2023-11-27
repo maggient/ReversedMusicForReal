@@ -1,6 +1,7 @@
 
 /*
- * c2017 Courtney Brown 
+ *  CODE FROM COURTNEY BROWN, USED FOR MAGGIE NGUYEN FINAL PROJECT 
+ *  CODE OF 2017 Courtney Brown, USED FOR MAGGIE NGUYEN FINAL PROJECT 
  * 
  * Class: MidiFileToNotes
  * Description: Uses JMusic to get notes & info from a midi file
